@@ -1,4 +1,4 @@
-public class WhileDemo {
+public class TableOfFive {
 
     public static void main(String[] args) {
 
@@ -6,8 +6,9 @@ public class WhileDemo {
 
         while(i<=10)
         {
-            System.out.println(i);
-            i = i + 1; // i++ 
+            System.out.println( 5 * i );
+
+            i = i + 1;
         }
 
     }
