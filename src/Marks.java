@@ -4,8 +4,6 @@ public class Marks {
 
         int marks = 50;
 
-        // if else if ladder
-
         if(marks<40)
             System.out.println("fail");
 
@@ -20,6 +18,5 @@ public class Marks {
 
         else if(marks > 75)
             System.out.println("Distinction");
-
     }
 }
