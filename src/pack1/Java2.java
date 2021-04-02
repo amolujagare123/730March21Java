@@ -1,6 +1,6 @@
 package pack1;
 
-public class Java2 {
+public class Java2 extends Java1{
 
     int a2;
     float f2;
@@ -19,8 +19,13 @@ public class Java2 {
 
         Java1 ob = new Java1();
         ob.a1 =10;
+        ob.f1 =4.5f;
        // ob.c1 ='c';
         ob.display1();
+
+        Java2 j2 = new Java2();
+        j2.a1 = 10;
+        j2.f1= 2.3f; // members of Java1
 
 
 

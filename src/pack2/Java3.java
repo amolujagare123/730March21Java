@@ -3,7 +3,7 @@ package pack2;
 
 import pack1.Java1;
 
-public class Java3 {
+public class Java3 extends Java1{
 
     int a3;
     float f3;
@@ -24,7 +24,13 @@ public class Java3 {
 
         ob.a1 =78;
         ob.str1 = "str";
+       // ob.f1 =4.5f;
         ob.display1();
+
+        Java3 j3 = new Java3();
+        j3.a1 =10;
+        j3.str1 ="";
+        j3.display3();
 
     }
 
