@@ -3,17 +3,21 @@ package ClassesAndConstructors;
 public class MyClassDemo2 {
     int a;
     float f;
-    char c;
+    final char c;
     String str; // data members
 
     MyClassDemo2()
     {
         // no body - empty constructor
+
+        c = 'f'; // initialized -->fixed
     }
 
 
     void display() // member function
     {
+
+
         System.out.println("a="+a);
         System.out.println("f="+f);
         System.out.println("c="+c);
