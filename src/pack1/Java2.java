@@ -1,5 +1,7 @@
 package pack1;
 
+
+
 public class Java2 extends Java1{
 
     int a2;

@@ -25,11 +25,14 @@ public class StudentDemo {
 
         s2.rno = 2;
         s2.name ="Sonali";
-        s2.college = "XYZ"; // null
+       s2.college = "XYZ"; // null
 
         s3.rno = 3;
         s3.name ="Sunny";
         s3.college = "abc"; // null
+
+        StudentDemo.college = "PICT" ;
+
 
 
         s1.display();

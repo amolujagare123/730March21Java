@@ -1,5 +1,12 @@
 package pack2;
 
+import StaticNFinal.StaticMethods;
+
+import static StaticNFinal.StaticMethods.myMethod2;
+import static StaticNFinal.StaticMethods.staticMethod2;
+
+//import static StaticNFinal.StaticMethods.*;
+
 public class Java4 {
 
     public  int a4;
@@ -16,6 +23,16 @@ public class Java4 {
     }
 
     public static void main(String[] args) {
+
+        StaticMethods ob = new StaticMethods();
+        myMethod2(); // static method called using object
+
+        myMethod2();
+
+        staticMethod2();
+
+        System.out.println("");
+
     }
 
 
