@@ -2,10 +2,13 @@ package InheritanceDemos;
 
 public /*final*/ class TvShowroom {
 
-   /* final*/ void volumeControl()
+   /* final*/
+
+    void volumeControl()
     {
         System.out.println("TV Showroom Volume Control");
     }
+
     void channels()
     {
         System.out.println("TV Showrrom channels");
@@ -25,6 +28,9 @@ class Onida extends TvShowroom {
     {
         System.out.println("Onida Volume Control");
     }
+
+
+
     void channels()
     {
         System.out.println("Onida channels");

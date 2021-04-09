@@ -19,9 +19,23 @@ class ChildAbstract extends MyAbstractClass
     {
         System.out.println("run");
     }
-    void start()
+   void start()
     {
         System.out.println("start");
+    }
+
+    public static void main(String[] args) {
+
+      //  MyAbstractClass ob = new  MyAbstractClass();
+
+        MyAbstractClass obj = new ChildAbstract();
+
+        // object refernce (obj)
+
+        obj.run();
+        obj.start();
+        obj.show();
+
     }
 
 }

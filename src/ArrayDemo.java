@@ -1,5 +1,4 @@
 public class ArrayDemo {
-
     public static void main(String[] args) {
 
         int[]  a = new int[6];
@@ -13,6 +12,5 @@ public class ArrayDemo {
 
         for(int i=0;i<a.length ;i++)
             System.out.println(a[i]);
-
     }
 }
