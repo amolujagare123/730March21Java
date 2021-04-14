@@ -1,7 +1,5 @@
 public class StringComparison {
-
     public static void main(String[] args) {
-
         String str1 = "amol";
         String str2 = "amol";
         String str3 = "Amol";
@@ -19,9 +17,8 @@ public class StringComparison {
         System.out.println(str1.equals(str4));// false
         System.out.println(str1.equals(str6)); // true
 
-        System.out.println(str1==str2);
-        System.out.println(str1==str6);
-
+        System.out.println(str1==str2); // true
+        System.out.println(str1==str6); // true
 
     }
 }
