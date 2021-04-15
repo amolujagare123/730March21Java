@@ -14,7 +14,6 @@ public class MyClassParmConst {
         str = s;
     }
 
-
     void display() // member function
     {
 

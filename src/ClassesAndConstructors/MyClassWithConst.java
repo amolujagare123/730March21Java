@@ -14,7 +14,6 @@ public class MyClassWithConst {
         str="amol";
     }
 
-
     void display() // member function
     {
         System.out.println("a="+a);
@@ -26,12 +25,7 @@ public class MyClassWithConst {
     public static void main(String[] args) {
 
         MyClassWithConst ob  =new MyClassWithConst();
-
         ob.display();
-
-
-        MyClassWithConst ob2  =new MyClassWithConst();
-        ob2.display();
     }
 
 }
