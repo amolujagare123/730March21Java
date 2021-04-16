@@ -42,7 +42,7 @@ public class Conversions1 {
 
         String s8 = "d";
         // Charater.parseChar() --> method doesnot exist
-        char ch ;
+        char ch = s8.charAt(0); // --> 'd'
 
     }
 
