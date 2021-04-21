@@ -29,7 +29,6 @@ class Framework extends Cucumber
     }
 
 
-
     void execute()
     {
         System.out.println("Executing Framework");
@@ -45,7 +44,6 @@ class Framework extends Cucumber
     public static void main(String[] args) {
 
         Framework framework = new Framework(10);
-
-       // framework.displayExecution();
+        framework.displayExecution();
     }
 }

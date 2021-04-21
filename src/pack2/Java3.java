@@ -24,7 +24,7 @@ public class Java3 extends Java1{
 
         ob.a1 =78;
         ob.str1 = "str";
-       // ob.f1 =4.5f;
+        ob.f1 =4.5f;
         ob.display1();
 
         Java3 j3 = new Java3();

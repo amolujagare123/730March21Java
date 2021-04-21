@@ -25,11 +25,6 @@ class  BabyDog extends  Dog
     }
 }
 
-/*class TestMultiple  extends Dog,BabyDog
-{
-
-}*/
-
 class TestInheritance
 {
     public static void main(String[] args) {

@@ -29,9 +29,6 @@ public class Java2 extends Java1{
         j2.a1 = 10;
         j2.f1= 2.3f; // members of Java1
 
-
-
     }
 
-
-    }
+}

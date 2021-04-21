@@ -1,9 +1,7 @@
 package InheritanceDemos;
 
 public class Automation {
-
     int testcaseId =101;
-
 }
 
 class Selenium extends Automation
@@ -19,11 +17,6 @@ class Selenium extends Automation
     public static void main(String[] args) {
 
         Selenium ob = new Selenium();
-
         ob.printTestCaseId();
-
-
-
     }
-
 }
