@@ -31,8 +31,11 @@ public class ArrayListDemoRemoveIf3 {
         // 3. this variable (say 'a' here) will represent each element in the list
         // 4. use predicate symbol (->)
         // 5. write the condition
-
        //  remove all the vowels --> a,e ,i,o,u
+
+        al.removeIf(ch -> (ch=='a' || ch =='e' || ch=='i' || ch=='o' || ch=='u') );
+
+        System.out.println("al="+al);
 
 
 
